@@ -1,0 +1,48 @@
+score = 0
+print()
+print("Question 1:")
+print("2 x 4")
+answer = input().lower()
+
+if answer == "8":
+        print("Correct!")
+        score = score+1
+else:
+    print("Wrong!")
+
+print()
+print("Question 2:")
+print("5 x 6")
+answer = input().lower()
+
+if answer == "30":
+        print("Correct!")
+        score = score+1
+else:
+    print("Wrong!")
+
+print()
+print("Question 3:")
+print("7 x 8")
+answer = input().lower()
+
+if answer == "56":
+        print("Correct!")
+        score = score+1
+else:
+    print("Wrong!")
+
+print()
+print("Question 4:")
+print("4 x 8")
+answer = input().lower()
+
+if answer == "32":
+        print("Correct!")
+        score = score+1
+else:
+    print("Wrong!")
+
+print()
+print("Score:")
+print((score / 4) * 100)
